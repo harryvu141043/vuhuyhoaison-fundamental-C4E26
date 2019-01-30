@@ -1,0 +1,5 @@
+c=float(input("Mời bạn nhập celsius(0C):"))
+print("Vậy Fahrenheit(0F) mà bạn cần là: ")
+print("   ",1.8*c+32,"0F.")
+print("Cảm ơn vì đã sử dụng chương trình")
+print("    Tạm biệt và hẹn gặp lại.")
