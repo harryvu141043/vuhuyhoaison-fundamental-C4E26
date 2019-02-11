@@ -15,20 +15,21 @@ for i in n:
             print(":)")
             while True:
                 b=input("Your answer:")
-                if len(list(b))==len(i) and max(list(b))==max(i) and min(list(b))==min(i) and ''.join(i)!=b and list(b).count("o")==i.count("o") :
+                if len(list(b))==len(i) and max(list(b))==max(i) and min(list(b))==min(i) and ''.join(i)!=b and list(b).count("o")==i.count("o") and list(b).count(max(list(b)))==i.count(max(i)) and list(b).count(min(list(b)))==i.count(min(i)):
+                
                     print("Hura")
                     break
                 else:
                     print(":)")
     if not list(s)==i:
-        if len(list(s))==len(i) and max(list(s))==max(i) and min(list(s))==min(i) and list(s).count("o")==i.count("o"):
+        if len(list(s))==len(i) and max(list(s))==max(i) and min(list(s))==min(i) and list(s).count("o")==i.count("o") and list(s).count(max(list(s)))==i.count(max(i)) and  list(s).count(min(list(s)))==i.count(min(i)):
             print("Hura")
             continue
         else:
             print(":)")
             while True:
                 a=input("Your answer:")
-                if len(list(a))==len(i) and max(list(a))==max(i) and min(list(a))==min(i) and list(a).count("o")==i.count("o"):
+                if len(list(a))==len(i) and max(list(a))==max(i) and min(list(a))==min(i) and list(a).count("o")==i.count("o") and list(a).count(max(list(a)))==i.count(max(i)) and list(a).count(min(list(a)))==i.count(min(i)):
                     print("Hura")
                     break
                 else:
