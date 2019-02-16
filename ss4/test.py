@@ -1,2 +1,2 @@
-n="hyy"
-print(*n,sep="")
+l=[1.abou]
+print(l)
