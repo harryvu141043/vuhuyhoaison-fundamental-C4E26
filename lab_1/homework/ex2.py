@@ -7,7 +7,7 @@ conn = urlopen(url)
 raw_data = conn.read()
 content = raw_data.decode("utf8")
 
-with open("cafef.html", "wb") as f:
+with open("s.cafef.html", "wb") as f:
     f.write(raw_data)
 
 
