@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    {% for item in item_list %}
+        <h4>name:{{ item.model }}</h4>
+        <h4>daily fee:{{ item.dailyfee }}</h4>
+        <h4>image:{{ item.image }}</h4>
+        <h4>year:{{ item.year}}</h4>
+
+    {% endfor %}
+    
+</body>
+</html>
