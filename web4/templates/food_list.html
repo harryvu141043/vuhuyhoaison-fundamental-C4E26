@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{background-color: #DF9B9B;}
+        h4{
+            color: yellow;
+            font-family: Arial
+            
+        }
+        div{
+            color: blue;
+            font-family:  Arial;
+        }
+        a{
+            color: beige
+        }
+        
+    </style>
+</head>
+   
+<body>
+    
+        {% for item in item_list %}
+            <h4>{{N}}name:{{ item.name }}</h4>
+            <div> price:{{item.price}}</div>
+            <a href="/food/{{item._id}}">Detail</a>
+        {% endfor %}
+
+
+</body>
+</html>
